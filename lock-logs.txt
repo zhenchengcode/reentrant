@@ -1,0 +1,42 @@
+task name - Job2 waiting for lock
+task name - Job1 outer lock acquired at 11:23:26 Doing outer work
+task name - Job2 waiting for lock
+task name - Job1 inner lock acquired at 11:23:28 Doing inner work
+Lock Hold Count - 2
+task name - Job2 waiting for lock
+task name - Job2 waiting for lock
+task name - Job1 releasing inner lock
+Lock Hold Count - 1
+task name - Job1 work done
+task name - Job1 releasing outer lock
+Lock Hold Count - 0
+task name - Job3 outer lock acquired at 11:23:29 Doing outer work
+task name - Job2 waiting for lock
+task name - Job3 inner lock acquired at 11:23:31 Doing inner work
+Lock Hold Count - 2
+task name - Job2 waiting for lock
+task name - Job2 waiting for lock
+task name - Job3 releasing inner lock
+Lock Hold Count - 1
+task name - Job3 work done
+task name - Job3 releasing outer lock
+Lock Hold Count - 0
+task name - Job4 outer lock acquired at 11:23:32 Doing outer work
+task name - Job2 waiting for lock
+task name - Job4 inner lock acquired at 11:23:34 Doing inner work
+Lock Hold Count - 2
+task name - Job2 waiting for lock
+task name - Job2 waiting for lock
+task name - Job4 releasing inner lock
+Lock Hold Count - 1
+task name - Job4 work done
+task name - Job4 releasing outer lock
+Lock Hold Count - 0
+task name - Job2 outer lock acquired at 11:23:36 Doing outer work
+task name - Job2 inner lock acquired at 11:23:38 Doing inner work
+Lock Hold Count - 2
+task name - Job2 releasing inner lock
+Lock Hold Count - 1
+task name - Job2 work done
+task name - Job2 releasing outer lock
+Lock Hold Count - 0
